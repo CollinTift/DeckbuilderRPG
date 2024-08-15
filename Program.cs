@@ -1,3 +1,3 @@
 ﻿
-using var game = new DeckbuilderRPG.Game1();
+using var game = new DeckbuilderRPG.Source.DeckbuilderRPG();
 game.Run();

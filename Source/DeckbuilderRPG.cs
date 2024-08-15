@@ -2,14 +2,14 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace DeckbuilderRPG
+namespace DeckbuilderRPG.Source
 {
-    public class Game1 : Game
+    public class DeckbuilderRPG : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
-        public Game1()
+        public DeckbuilderRPG()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
